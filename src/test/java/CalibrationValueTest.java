@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Disabled;
+import org.example.CalibrationUnscrambler;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalibrationValueTest {
 
-    @Disabled("WIP")
     @ParameterizedTest
     @CsvSource({"src/test/resources/shouldFindCalibrationValueData.txt,142", "src/test/resources/shouldFindCalibrationValueData2.txt,12"})
     void shouldFindCalibrationValue(String scrambledCalibrationFile, int expectedCalibrationResult) {
