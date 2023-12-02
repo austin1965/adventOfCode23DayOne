@@ -9,8 +9,9 @@ public class CalibrationValueTest {
 
   @ParameterizedTest
   @CsvSource({
-    "src/test/resources/shouldFindCalibrationValueData.txt,142",
-    "src/test/resources/shouldFindCalibrationValueData2.txt,12"
+    "src/test/resources/shouldFindCalibrationValueDataForMultipleLines.txt,142",
+    "src/test/resources/shouldFindCalibrationValueForOneLine.txt,12",
+    "src/test/resources/shouldFindCalibrationValueDataForSpelledOutNumbers.txt,281"
   })
   void shouldFindCalibrationValue(String scrambledCalibrationFile, int expectedCalibrationResult) {
     // given
