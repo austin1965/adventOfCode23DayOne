@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CalibrationValueTest {
 
     @Test
-    @Disabled("WIP")
     void shouldFindCalibrationValue() {
         //given
         CalibrationUnscrambler systemUnderTest = new CalibrationUnscrambler();
