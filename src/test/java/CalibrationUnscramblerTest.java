@@ -5,7 +5,7 @@ import org.example.CalibrationUnscrambler;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class CalibrationValueTest {
+public class CalibrationUnscramblerTest {
 
   @ParameterizedTest
   @CsvSource({
